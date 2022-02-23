@@ -20,6 +20,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import mx.tecnm.piedad.dao.PlanJDBC;
 import mx.tecnm.piedad.models.Plan;
 
+//Comentario para ejemplificar cambios en Git
+
 @RestController
 @RequestMapping("/api/planes")
 @CrossOrigin(origins = "*", methods= {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.PATCH})
